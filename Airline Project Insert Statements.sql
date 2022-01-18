@@ -1,0 +1,96 @@
+/**************Airline**************/
+
+INSERT INTO AIRLINE VALUES('Delta Airline','E');
+INSERT INTO AIRLINE VALUES('Southwest Airline','K'); 
+INSERT INTO AIRLINE VALUES('American Airline','A');
+INSERT INTO AIRLINE VALUES('Frontier Airline','L');
+INSERT INTO AIRLINE VALUES('Jet Blue Airline','W');
+
+
+/**************Airplane**************/
+
+INSERT INTO AIRPLANE VALUES('Airbus A220-100','European Aeronautic Defence and Space Company',221,540);
+INSERT INTO AIRPLANE VALUES('512 Boeing 737-300','Boeing Commericial Airplanes',241,545);
+INSERT INTO AIRPLANE VALUES('17 Boeing 777','Boeing Commercial Airplanes',396,550);
+INSERT INTO AIRPLANE VALUES('737 MAX 8','Boeing Commercial Airplanes',230,555);
+INSERT INTO AIRPLANE VALUES('Airbus A320','European Aeronautic Defence and Space Company',138,560);
+
+
+/**************Airport**************/
+
+INSERT INTO AIRPORT VALUES('College Park','Georgia','404-678-6470','United States of America','ATL');
+INSERT INTO AIRPORT VALUES('Dallas-Fortworth','Texas','972-973-3112','United States of America','DFW');
+INSERT INTO AIRPORT VALUES('Boise','Idaho','208-383-3110','United States of America','BOI');
+INSERT INTO AIRPORT VALUES('Queens','New York','718-244-4444','United States of America','JFK');
+INSERT INTO AIRPORT VALUES('Miami','Florida','305-876-7000','United States of America','MIA');
+
+
+/**************Customer**************/
+
+INSERT INTO CUSTOMER VALUES('1601 Maple St','Charlie','1987-10-10','Carrollton','GA',30118,'Langston','Hughes');
+INSERT INTO CUSTOMER VALUES('345 Lexington Dr SW','Darla','1942-02-21','Inglewood','TX',41256,'Sherry','Braxton');
+INSERT INTO CUSTOMER VALUES('91000 Roberton St','Halle','1992-04-24','Galvintston','ID',21158,'Molly','Berry');
+INSERT INTO CUSTOMER VALUES('302 Walker Dr','Tupac','1970-08-01','New York','NY',10001,'Amaru','Shakur');
+INSERT INTO CUSTOMER VALUES('3801 Quebec St','Laron','1994-12-24','Denver','CO',80207,'Seth','Bridges');
+
+/**************CheckIn**************/
+
+INSERT INTO CHECKIN VALUES('12:30:00','09:45:00','NY-ATL','2019-12-23','09:15:00');
+INSERT INTO CHECKIN VALUES('08:45:00','06:15:00','TX-MIA','2019-11-30','07:30:00');
+INSERT INTO CHECKIN VALUES('18:10:00','13:50:00','ID-ATL','2020-02-18','12:15:00');
+INSERT INTO CHECKIN VALUES('10:10:00','08:50:00','TX-NY','2020-04-14','08:15:00');
+INSERT INTO CHECKIN VALUES('14:15:00','12:50:00','ATL-MIA','2019-12-29','10:00:00');
+
+
+/**************Flight**************/
+
+INSERT INTO FLIGHT VALUES(2412,'2019-12-23','09:45:00','2019-12-23','08:45:00','Domestic','2','C64',200,3000,200);
+INSERT INTO FLIGHT VALUES(3114,'2019-11-30','06:15:00','2019-11-30','12:30:00','Domestic','B','54',210,3001,210);
+INSERT INTO FLIGHT VALUES(1510,'2020-02-18','13:50:00','2020-02-18','18:10:00','Domestic','B','C41',220,3002,220);
+INSERT INTO FLIGHT VALUES(1994,'2020-04-14','08:50:00','2020-04-14','10:10:00','Domestic','N','D23',230,3003,230);
+INSERT INTO FLIGHT VALUES(7777,'2019-12-29','12:50:00','2019-12-29','10:00:00','Domestic','4','D1',240,3004,240);
+
+/**************Luggage**************/
+
+INSERT INTO LUGGAGE VALUES(51.2,57.29,'C15',1);
+INSERT INTO LUGGAGE VALUES(10.0,0.00,'L23',2);
+INSERT INTO LUGGAGE VALUES(33.08,21.15,'M1',3);
+INSERT INTO LUGGAGE VALUES(19.38,17.64,'D14',4);
+INSERT INTO LUGGAGE VALUES(42.22,37.87,'A9',5);
+
+/**************Seats**************/
+
+INSERT INTO SEATS VALUES('Business','B',7,1,3002);
+INSERT INTO SEATS VALUES('Business','D',1,2,3003);
+INSERT INTO SEATS VALUES('Economy','K',4,2,3003);
+INSERT INTO SEATS VALUES('First Class','A',5,1,3003);
+INSERT INTO SEATS VALUES('Economy','O',3,1,3001);
+INSERT INTO SEATS VALUES('First Class','C',2,2,3000);
+
+/**************Ticket**************/
+
+INSERT INTO TICKETS VALUES('Z6JHVY','Delta Airlines','D',367.72,'Halle B.',2,105);
+INSERT INTO TICKETS VALUES('YZK58XLAK','American Airlines','X',712.22,'Tupac S.',5,100);
+INSERT INTO TICKETS VALUES('64S5DS5','Southwestern Airlines','Y',140.00,'Laron B.',3,110);
+INSERT INTO TICKETS VALUES('6JHVY01','Frontier Airlines','Z',512.85,'Darla B.',1,115);
+INSERT INTO TICKETS VALUES('A154DX','Jet Blue Airlines','J',842.10,'Charlie H.',4,120);
+
+/**************FlightCheckIn**************/
+
+INSERT INTO FLIGHTCHECKIN VALUES(400,100);
+INSERT INTO FLIGHTCHECKIN VALUES(405,105);
+INSERT INTO FLIGHTCHECKIN VALUES(410,110);
+INSERT INTO FLIGHTCHECKIN VALUES(415,115);
+INSERT INTO FLIGHTCHECKIN VALUES(420,120);
+
+/**************FlightTicket**************/
+
+INSERT INTO FLIGHTTICKET VALUES(400,4000);
+INSERT INTO FLIGHTTICKET VALUES(405,4001);
+INSERT INTO FLIGHTTICKET VALUES(410,4002);
+INSERT INTO FLIGHTTICKET VALUES(415,4003);
+INSERT INTO FLIGHTTICKET VALUES(420,4004);
+
+
+
+
